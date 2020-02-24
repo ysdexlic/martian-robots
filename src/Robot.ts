@@ -72,6 +72,23 @@ export class Robot {
                 }
                 break;
             }
+            case 'B': {
+                switch (this.orientation) {
+                    case 'N':
+                        newY -= 1;
+                        break;
+                    case 'E':
+                        newX -= 1;
+                        break;
+                    case 'S':
+                        newY += 1;
+                        break;
+                    case 'W':
+                        newX += 1;
+                        break;
+                }
+                break;
+            }
         }
 
         // if moving off the grid
