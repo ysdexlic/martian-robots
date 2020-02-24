@@ -1,0 +1,1 @@
+export const orientations: Array<string> = ['N', 'E', 'S', 'W'];
