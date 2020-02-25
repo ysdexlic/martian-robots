@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // Transpiling and Bundling config
 module.exports = {
-    context: path.join(__dirname, 'src'),
+    context: path.join(__dirname, 'src/app'),
     entry: [
         './App.tsx'
     ],

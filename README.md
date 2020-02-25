@@ -5,6 +5,7 @@
 - Set the lost robots coordinates to their last known rather than changing to their “actual” position as it made life a little easier to output the info, however, it wouldn’t be much more effort to get the info from the lost scent instead.
 
 ### If I had more time I would
+- Add react tests, I added the frontend quite late as a way to input the data
 - Add spies to the tests (Sinon or similar)
 - Create a front end interface to add input from
 - Better tooling (test watcher, prettier/better linting, etc.)
