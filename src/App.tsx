@@ -2,6 +2,7 @@ import * as React from 'react';
 import { useState } from 'react';
 import * as ReactDOM from 'react-dom';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import * as S from './App.styled';
 
 import { init } from './index';

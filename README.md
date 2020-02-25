@@ -8,4 +8,15 @@
 - Add spies to the tests (Sinon or similar)
 - Create a front end interface to add input from
 - Better tooling (test watcher, prettier/better linting, etc.)
-- Cleaner conversion from strings to int.
+- Cleaner conversion from strings to int
+- Probably would have used a much smaller framework (or none at all) to render the frontend
+
+## Running the app
+- `yarn` will install the dependencies
+- `yarn start` will start the server at [localhost:9000](http://localhost:9000)
+- `yarn run test` will run the tests
+
+optionally you can use NPM, in which case the steps would be:
+- `npm install`
+- `npm start`
+- `npm run test`
