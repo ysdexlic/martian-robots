@@ -2,6 +2,8 @@ import * as React from 'react';
 import { useState } from 'react';
 import * as ReactDOM from 'react-dom';
 
+import * as S from './App.styled';
+
 import { init } from './index';
 
 const App = (): JSX.Element => {
@@ -14,19 +16,20 @@ const App = (): JSX.Element => {
     }
 
     return (
-        <div>
-            <h2>Martian Robots</h2>
-            <textarea
+        <S.Container>
+            <S.Title>Martian Robots</S.Title>
+            <S.InputContainer
+                autoFocus
+                placeholder="Enter commands here"
+                rows="10"
                 onChange={(e): void => setInput(e.target.value)}
             >    
-            </textarea>
-            <button onClick={(): void => submit()}>submit</button>
-            <p
-                style={{whiteSpace: 'pre-line'}}
-            >
+            </S.InputContainer>
+            <S.Button onClick={(): void => submit()}>submit</S.Button>
+            <S.OutputContainer>
                 {output}
-            </p>
-        </div>
+            </S.OutputContainer>
+        </S.Container>
     );
 };
 
