@@ -3,9 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 // Transpiling and Bundling config
 module.exports = {
-    context: path.join(__dirname, 'src/app'),
+    context: path.join(__dirname, 'src'),
     entry: [
-        './App.tsx'
+        './app/App.tsx'
     ],
     output: {
         path: path.join(__dirname, 'build'),
