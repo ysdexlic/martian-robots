@@ -5,7 +5,7 @@ import * as ReactDOM from 'react-dom';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import * as S from './App.styled';
 
-import { init } from '../domain/index';
+import { init } from '../domain';
 
 const App = (): JSX.Element => {
     const [input, setInput] = useState('');
