@@ -35,5 +35,5 @@ const App = (): JSX.Element => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(React.createElement(App), document.getElementById('mount'));
+    ReactDOM.render(React.createElement(App), document.getElementById('mount'));
 });

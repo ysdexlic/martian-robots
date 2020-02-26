@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-      "outDir": "./build/",
-      "jsx": "react",
-      "target": "es5",
-      "module": "commonjs",
-      "resolveJsonModule": true,
-      "moduleResolution": "node",
-      "sourceMap": true
+        "outDir": "./build/",
+        "jsx": "react",
+        "target": "es5",
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "sourceMap": true
     }
-  }
+}
